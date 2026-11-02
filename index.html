@@ -71,6 +71,9 @@ h1 { font-size:1.7rem; font-weight:700; letter-spacing:-.01em; margin-top:4px; }
 footer { margin-top:10px; padding-top:16px; border-top:1px solid #d7dce5; display:flex; justify-content:space-between; font-size:.8rem; color:var(--sub); flex-wrap:wrap; gap:8px; }
 .brand { display:inline-flex; align-items:center; background:transparent; margin-bottom:14px; }
 .brand img { height:32px; width:auto; display:block; }
+.progress.hours { margin-top:-8px; }
+.progress.hours .progress-fill { background:linear-gradient(90deg,#0d9488,#5eead4); }
+.progress.hours .progress-lbl { font-weight:600; color:#475569; }
 </style>
 </head>
 <body>
@@ -89,6 +92,7 @@ footer { margin-top:10px; padding-top:16px; border-top:1px solid #d7dce5; displa
 <div class="proj-section green" id="atlanta">
 <div class="proj-head"><div class="proj-name">Atlanta move to AWS</div><span class="pill green"><span class="dot"></span>On track</span></div>
 <div class="progress"><div class="progress-track"><div class="progress-fill" style="width:85%"></div></div><div class="progress-lbl">85% complete</div></div>
+<div class="progress hours"><div class="progress-track"><div class="progress-fill" style="width:48%"></div></div><div class="progress-lbl">Budget hours burned: 202 of 416.5 (48.5%) &#183; 214.5 left</div></div>
 <table class="ms-table"><thead><tr><th>Target</th><th>Milestone</th><th>Status</th></tr></thead><tbody>
 <tr class="done"><td class="ms-target">Complete</td><td>Wave 1 migration (applications)</td><td class="ms-status"><span class="tag complete">&#x2705; Complete</span></td></tr>
 <tr class="done"><td class="ms-target">Complete</td><td>Wave 2 migration (applications)</td><td class="ms-status"><span class="tag complete">&#x2705; Complete</span></td></tr>
@@ -106,6 +110,7 @@ footer { margin-top:10px; padding-top:16px; border-top:1px solid #d7dce5; displa
 <div class="proj-section green" id="canada">
 <div class="proj-head"><div class="proj-name">Canada platform build</div><span class="pill green"><span class="dot"></span>On track</span></div>
 <div class="progress"><div class="progress-track"><div class="progress-fill" style="width:99%"></div></div><div class="progress-lbl">99% complete</div></div>
+<div class="progress hours"><div class="progress-track"><div class="progress-fill" style="width:65%"></div></div><div class="progress-lbl">Budget hours burned: 1,440.5 of 2,210 (65.2%) &#183; 769.5 left</div></div>
 <table class="ms-table"><thead><tr><th>Target</th><th>Milestone</th><th>Status</th></tr></thead><tbody>
 <tr class="done"><td class="ms-target">Sept 14&#8211;18</td><td>Clear Phase 1 blockers + deploy core application services</td><td class="ms-status"><span class="tag complete">&#x2705; Complete</span></td></tr>
 <tr class="done"><td class="ms-target">Sept 21</td><td>Environment available for Implementation</td><td class="ms-status"><span class="tag complete">&#x2705; Complete</span></td></tr>
@@ -122,6 +127,7 @@ footer { margin-top:10px; padding-top:16px; border-top:1px solid #d7dce5; displa
 <div class="proj-section green" id="ocwest">
 <div class="proj-head"><div class="proj-name">OC West expansion</div><span class="pill green"><span class="dot"></span>On track</span></div>
 <div class="progress"><div class="progress-track"><div class="progress-fill" style="width:95%"></div></div><div class="progress-lbl">95% complete</div></div>
+<div class="progress hours"><div class="progress-track"><div class="progress-fill" style="width:47%"></div></div><div class="progress-lbl">Budget hours burned: 783.7 of 1,660 (47.2%) &#183; 876.3 left</div></div>
 <table class="ms-table"><thead><tr><th>Target</th><th>Milestone</th><th>Status</th></tr></thead><tbody>
 <tr class="done"><td class="ms-target">Sept 16</td><td>West database region attached</td><td class="ms-status"><span class="tag complete">&#x2705; Complete</span></td></tr>
 <tr class="done"><td class="ms-target">Sept 17</td><td>Old database stopped / rollback window begins</td><td class="ms-status"><span class="tag complete">&#x2705; Complete &#8212; 10 AM ET</span></td></tr>
@@ -147,6 +153,7 @@ footer { margin-top:10px; padding-top:16px; border-top:1px solid #d7dce5; displa
 <div class="proj-section yellow" id="idp">
 <div class="proj-head"><div class="proj-name">Identity platform upgrade</div><span class="pill yellow"><span class="dot"></span>Needs attention</span></div>
 <div class="progress"><div class="progress-track"><div class="progress-fill" style="width:90%"></div></div><div class="progress-lbl">90% complete</div></div>
+<div class="progress hours"><div class="progress-track"><div class="progress-fill" style="width:71%"></div></div><div class="progress-lbl">Budget hours burned: 185.5 of 260 (71.3%) &#183; 74.5 left</div></div>
 <table class="ms-table"><thead><tr><th>Target</th><th>Milestone</th><th>Status</th></tr></thead><tbody>
 <tr class="done"><td class="ms-target">Sept 9</td><td>Phase 2 production release attempted &#8212; rolled back same day (Okta issues)</td><td class="ms-status"><span class="tag complete">&#x2705; Complete</span></td></tr>
 <tr class="done"><td class="ms-target">Sept 23</td><td>Internal sync: rollback-safety plan agreed</td><td class="ms-status"><span class="tag complete">&#x2705; Complete</span></td></tr>
@@ -168,6 +175,7 @@ footer { margin-top:10px; padding-top:16px; border-top:1px solid #d7dce5; displa
 <div class="proj-section green" id="audiocodes">
 <div class="proj-head"><div class="proj-name">AudioCodes voice gateway</div><span class="pill green"><span class="dot"></span>On track</span></div>
 <div class="progress"><div class="progress-track"><div class="progress-fill" style="width:10%"></div></div><div class="progress-lbl">10% complete</div></div>
+<div class="progress hours"><div class="progress-track"><div class="progress-fill" style="width:18%"></div></div><div class="progress-lbl">Budget hours burned: 57 of 320 (17.8%) &#183; 263 left</div></div>
 <table class="ms-table"><thead><tr><th>Target</th><th>Milestone</th><th>Status</th></tr></thead><tbody>
 <tr class="done"><td class="ms-target">Oct 15</td><td>Project kick-off &#8212; scope set: two redundant voice gateway pairs plus one management server in AWS</td><td class="ms-status"><span class="tag complete">&#x2705; Complete</span></td></tr>
 <tr class="done"><td class="ms-target">Oct 19</td><td>Architecture alignment &#8212; dedicated AWS account to isolate the management tooling from clinical traffic</td><td class="ms-status"><span class="tag complete">&#x2705; Complete</span></td></tr>
@@ -182,7 +190,7 @@ footer { margin-top:10px; padding-top:16px; border-top:1px solid #d7dce5; displa
 <div class="cols"><div class="blockers"><div class="box-label">Blockers</div><ul><li>Both AWS accounts are created but cannot be finalized until IT supplies a permanent route email address; platform-engineering availability for networking (a 3&#8211;4 day effort) is the main dependency for the Nov 13 date.</li><li>The deployment method needs operations approval because the AudioCodes tool is non-standard, and the redundancy design cannot be finalized until it is chosen.</li><li>The healthcare customer driving the aggressive this-year timeline still needs internal approval before the plan is disclosed to them, and their questionnaire details are outstanding.</li></ul></div></div>
 </div>
 
-<footer><span>4 on track &#183; 1 needs help</span><span>PerfectServe Executive Summary &#183; Nov 2, 2026</span></footer>
+<footer><span>4 on track &#183; 1 needs help</span><span>PerfectServe Executive Summary &#183; Nov 2, 2026 &#183; Hours per Smartsheet, Nov 1</span></footer>
 </div>
 </body>
 </html>
